@@ -46,13 +46,11 @@
         <module>transformer</module>
 
         <!-- reader -->
-        <module>postgresqlreader</module>
-        <module>streamreader</module>
-        <module>oraclereader</module>
+        <module>mysqlreader</module>
+        <module>impalareader</module>
         <!-- writer -->
-        <module>streamwriter</module>
-        <module>postgresqlwriter</module>
-        <module>oraclewriter</module>
+        <module>mysqlwriter</module>
+        <module>impalawriter</module>
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
         <module>plugin-unstructured-storage-util</module>

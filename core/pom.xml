@@ -25,7 +25,7 @@
         </dependency>
         <!-- 需要用到的读写插件、可自行增删 -->
         <dependency>
-            <artifactId>streamreader</artifactId>
+            <artifactId>impalareader</artifactId>
             <groupId>com.alibaba.datax</groupId>
             <version>${datax-project-version}</version>
             <exclusions>
@@ -36,7 +36,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <artifactId>streamwriter</artifactId>
+            <artifactId>impalawriter</artifactId>
             <groupId>com.alibaba.datax</groupId>
             <version>${datax-project-version}</version>
             <exclusions>
@@ -47,7 +47,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <artifactId>oraclereader</artifactId>
+            <artifactId>mysqlreader</artifactId>
             <groupId>com.alibaba.datax</groupId>
             <version>${datax-project-version}</version>
             <exclusions>
@@ -58,29 +58,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <artifactId>oraclewriter</artifactId>
-            <groupId>com.alibaba.datax</groupId>
-            <version>${datax-project-version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-log4j12</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <artifactId>postgresqlreader</artifactId>
-            <groupId>com.alibaba.datax</groupId>
-            <version>${datax-project-version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-log4j12</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <artifactId>postgresqlwriter</artifactId>
+            <artifactId>mysqlwriter</artifactId>
             <groupId>com.alibaba.datax</groupId>
             <version>${datax-project-version}</version>
             <exclusions>
